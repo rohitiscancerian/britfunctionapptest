@@ -1,0 +1,4 @@
+services:
+  functionapptest:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development

@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Docker Compose: Your Function App",
+      "type": "docker-compose",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/Debug/net8.0/FunctionAppTest.dll",
+      "dockerComposeProject": "${workspaceFolder}",
+      "environmentVariables": {
+        "AZURE_FUNCTIONS_WORKER_RUNTIME": "dotnet"
+        // Add other environment variables as needed
+      }
+    }
+  ]
+}

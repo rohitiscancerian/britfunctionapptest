@@ -1,0 +1,6 @@
+services:  
+  db-functionapptest:
+    build:
+        context: Db
+    ports:
+        - 1433:1433
